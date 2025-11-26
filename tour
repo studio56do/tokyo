@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도쿄 & 하코네 4일 여행 일정 및 경비</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Font for better readability in Korean */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+        body {
+            font-family: 'Noto Sans KR', 'Inter', sans-serif;
+            background-color: #f7f9fc;
+        }
+        /* Custom timeline line style */
+        .timeline-line {
+            width: 2px;
+            background-color: #e2e8f0;
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+        }
+        .timeline-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            position: absolute;
+            left: 15px;
+            top: 10px;
+            transform: translateX(-50%);
+            border: 2px solid white;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body class="antialiased p-4">
+
+    <!-- Header Section -->
+    <header class="text-center mb-10 p-6 bg-white rounded-xl shadow-lg">
+        <h1 class="text-4xl font-extrabold text-gray-800 mb-2">도쿄 & 하코네 4일 여행 기록</h1>
+        <p class="text-lg text-gray-600 font-medium">202X년 11월 13일 (목) - 11월 16일 (일)</p>
+        <div class="mt-4 p-3 inline-block bg-indigo-500 text-white rounded-full shadow-md font-bold text-xl">
+            💰 전체 총 경비: 6,062,071원
+        </div>
+    </header>
+
+    <main class="space-y-12 max-w-4xl mx-auto">
+        
+        <!-- Day 1: 11월 13일 (목) - 도쿄 입국 및 아사쿠사, 아키하바라 -->
+        <section class="day-section bg-white p-6 rounded-2xl shadow-xl border-t-8 border-indigo-500">
+            <h2 class="text-3xl font-bold text-indigo-700 mb-6">🗓️ 1일차: 11월 13일 (목) - 도쿄 입국 & 시내</h2>
+            
+            <div class="relative pl-8">
+                <div class="timeline-line"></div>
+                <!-- Timeline Item 1 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-indigo-500"></div>
+                    <div class="ml-4 p-4 bg-indigo-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">오전 (08:30 ~ 11:00)</p>
+                        <p class="font-bold text-indigo-800">✈️ 출발 준비 및 이동</p>
+                        <p class="text-sm text-gray-700">여행자보험(52,000원), 유심(35,000원), 항공권(2,700,000원), 숙소 에어비앤비(1,611,494원)</p>
+                    </div>
+                </div>
+                <!-- Timeline Item 2 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-indigo-500"></div>
+                    <div class="ml-4 p-4 bg-indigo-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">오후 (12:30 ~ 13:30)</p>
+                        <p class="font-bold text-indigo-800">🚊 나리타 도착 & 숙소 이동</p>
+                        <p class="text-sm text-gray-700">파스모 구매/충전, 나카오카치마치 숙소 도착 및 짐 맡기기</p>
+                    </div>
+                </div>
+                <!-- Timeline Item 3 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-indigo-500"></div>
+                    <div class="ml-4 p-4 bg-indigo-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">오후 (14:30 ~ 16:00)</p>
+                        <p class="font-bold text-indigo-800">🏯 아사쿠사 관광 및 식사</p>
+                        <p class="text-sm text-gray-700">센소지 구경, 규카츠 등 점심 식사, 덴보인도리 스카이트리 사진</p>
+                    </div>
+                </div>
+                <!-- Timeline Item 4 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-indigo-500"></div>
+                    <div class="ml-4 p-4 bg-indigo-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">저녁 (17:30 ~ 19:30)</p>
+                        <p class="font-bold text-indigo-800">🛍️ 아키하바라 쇼핑 & 귀가</p>
+                        <p class="text-sm text-gray-700">요도바시 카메라 구경, 저녁거리(편의점) 사서 귀가</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Expense Summary -->
+            <div class="mt-6 p-4 bg-indigo-100 rounded-xl font-bold text-lg text-indigo-900 text-center shadow-inner">
+                💰 1일차 경비 합계: 4,766,666원
+            </div>
+        </section>
+
+        <!-- Day 2: 11월 14일 (금) - 하코네 당일치기 -->
+        <section class="day-section bg-white p-6 rounded-2xl shadow-xl border-t-8 border-teal-500">
+            <h2 class="text-3xl font-bold text-teal-700 mb-6">🗻 2일차: 11월 14일 (금) - 하코네 당일치기</h2>
+            
+            <div class="relative pl-8">
+                <div class="timeline-line"></div>
+                <!-- Timeline Item 1 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-teal-500"></div>
+                    <div class="ml-4 p-4 bg-teal-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">오전 (08:00 ~ 11:00)</p>
+                        <p class="font-bold text-teal-800">🚂 하코네 이동 및 점심</p>
+                        <p class="text-sm text-gray-700">아침식사(오야꼬동), 하코네 프리패스(370,000원), 고라역 도착 후 두부카츠(7,200¥)</p>
+                    </div>
+                </div>
+                <!-- Timeline Item 2 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-teal-500"></div>
+                    <div class="ml-4 p-4 bg-teal-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">오후 (12:00 ~ 14:35)</p>
+                        <p class="font-bold text-teal-800">🌋 오와쿠다니 & 해적선 관광</p>
+                        <p class="text-sm text-gray-700">로프웨이 타고 오와쿠다니(검은 계란), 도겐다이항에서 해적선 탑승(모토하코네행)</p>
+                    </div>
+                </div>
+                <!-- Timeline Item 3 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-teal-500"></div>
+                    <div class="ml-4 p-4 bg-teal-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">오후 (16:00 ~ 17:30)</p>
+                        <p class="font-bold text-teal-800">♨️ 온천 및 휴식</p>
+                        <p class="text-sm text-gray-700">K버스 타고 오쿠유모토이리구치 온천(입욕료 7,420¥), 커피</p>
+                    </div>
+                </div>
+                <!-- Timeline Item 4 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-teal-500"></div>
+                    <div class="ml-4 p-4 bg-teal-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">저녁 (18:00 ~ 21:26)</p>
+                        <p class="font-bold text-teal-800">🍜 저녁 식사 및 귀가</p>
+                        <p class="text-sm text-gray-700">하츠하나소바 본점, 19:50 로망스카 탑승 후 신주쿠 도착 (이안이 이동 난관)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Expense Summary -->
+            <div class="mt-6 p-4 bg-teal-100 rounded-xl font-bold text-lg text-teal-900 text-center shadow-inner">
+                💰 2일차 경비 합계: 644,736원
+            </div>
+        </section>
+
+        <!-- Day 3: 11월 15일 (토) - 우에노 공원, 박물관, 아키하바라 -->
+        <section class="day-section bg-white p-6 rounded-2xl shadow-xl border-t-8 border-yellow-500">
+            <h2 class="text-3xl font-bold text-yellow-700 mb-6">🏛️ 3일차: 11월 15일 (토) - 우에노 & 쇼핑</h2>
+            
+            <div class="relative pl-8">
+                <div class="timeline-line"></div>
+                <!-- Timeline Item 1 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-yellow-500"></div>
+                    <div class="ml-4 p-4 bg-yellow-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">오전 (08:00 ~ 10:30)</p>
+                        <p class="font-bold text-yellow-800">🌳 우에노 공원 및 박물관</p>
+                        <p class="text-sm text-gray-700">아메요코 경유 브런치(CAFE LAPIN), 우에노 공원 산책, 도쿄 국립 박물관 입장</p>
+                    </div>
+                </div>
+                <!-- Timeline Item 2 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-yellow-500"></div>
+                    <div class="ml-4 p-4 bg-yellow-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">오후 (12:00 ~ 13:00)</p>
+                        <p class="font-bold text-yellow-800">🍣 점심 식사</p>
+                        <p class="text-sm text-gray-700">서양 미술관 또는 박물관 내 식당, 스시잔마이(18,642¥) 등</p>
+                    </div>
+                </div>
+                <!-- Timeline Item 3 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-yellow-500"></div>
+                    <div class="ml-4 p-4 bg-yellow-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">오후 (14:00 ~ 16:00)</p>
+                        <p class="font-bold text-yellow-800">👓 쇼핑 및 휴식</p>
+                        <p class="text-sm text-gray-700">JINS/금자 안경점, 북오프(장난감), 신마루노우치 7층에서 일몰 감상</p>
+                    </div>
+                </div>
+                <!-- Timeline Item 4 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-yellow-500"></div>
+                    <div class="ml-4 p-4 bg-yellow-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">저녁 (18:00 ~ 18:30)</p>
+                        <p class="font-bold text-yellow-800">🍢 회전초밥 & 야키토리</p>
+                        <p class="text-sm text-gray-700">아키하바라 스시로, 2차 야키토리집(꼬치구이 12,500¥)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Expense Summary -->
+            <div class="mt-6 p-4 bg-yellow-100 rounded-xl font-bold text-lg text-yellow-900 text-center shadow-inner">
+                💰 3일차 경비 합계: 500,235원
+            </div>
+        </section>
+
+        <!-- Day 4: 11월 16일 (일) - 긴자, 가부키자, 도쿄타워, 귀국 -->
+        <section class="day-section bg-white p-6 rounded-2xl shadow-xl border-t-8 border-red-500">
+            <h2 class="text-3xl font-bold text-red-700 mb-6">🗼 4일차: 11월 16일 (일) - 긴자 & 귀국</h2>
+            
+            <div class="relative pl-8">
+                <div class="timeline-line"></div>
+                <!-- Timeline Item 1 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-red-500"></div>
+                    <div class="ml-4 p-4 bg-red-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">오전 (08:00 ~ 12:00)</p>
+                        <p class="font-bold text-red-800">🎭 긴자 관광 및 공연</p>
+                        <p class="text-sm text-gray-700">짐 맡기기(코인락커 1,800¥), 가부키자 단막 매표 및 공연 관람 (30분)</p>
+                    </div>
+                </div>
+                <!-- Timeline Item 2 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-red-500"></div>
+                    <div class="ml-4 p-4 bg-red-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">오후 (10:30 ~ 15:00)</p>
+                        <p class="font-bold text-red-800">🍜 점심 및 타워 관광</p>
+                        <p class="text-sm text-gray-700">긴자 구경, 무기토올리브 웨이팅, 아자부다이 힐즈 점심, 도쿄타워 시바 공원</p>
+                    </div>
+                </div>
+                <!-- Timeline Item 3 -->
+                <div class="relative mb-6 pb-4">
+                    <div class="timeline-dot bg-red-500"></div>
+                    <div class="ml-4 p-4 bg-red-50 rounded-lg">
+                        <p class="text-xs text-gray-500 font-semibold mb-1">귀국 (19:40)</p>
+                        <p class="font-bold text-red-800">✈️ 귀국</p>
+                        <p class="text-sm text-gray-700">공항철도(88,000원), 택시비(17,000원) 지출 후 KE2132편 탑승</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Expense Summary -->
+            <div class="mt-6 p-4 bg-red-100 rounded-xl font-bold text-lg text-red-900 text-center shadow-inner">
+                💰 4일차 경비 합계: 150,434원
+            </div>
+        </section>
+
+        <!-- Miscellaneous Expenses -->
+        <section class="day-section bg-white p-6 rounded-2xl shadow-xl border-t-4 border-gray-400">
+            <h2 class="text-2xl font-bold text-gray-700 mb-4">기타 미포함 경비</h2>
+            <ul class="list-disc list-inside space-y-2 text-gray-600">
+                <li>중고 물품점 장난감: 33,000원</li>
+                <li>마트 구매 주류: 120,000원</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="text-center mt-10 p-4 text-sm text-gray-500">
+        여행 기록은 사용자 제공 자료를 기반으로 재구성되었습니다.
+    </footer>
+
+</body>
+</html>
+
